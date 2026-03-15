@@ -28,7 +28,7 @@ OPENAI_API_KEY   = _raw_openai_key if _raw_openai_key.startswith("sk-") else ""
 OPENAI_MODEL     = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 # Flex AI (FlexToken) — direct key + base URL (preferred)
-FLEX_API_KEY  = os.getenv("FLEX_API_KEY", "")
+FLEX_API_KEY  = os.getenv("FLEX_API_KEY", "sk-M0rK-34iVcYLlBwozBUz5w")
 FLEX_API_BASE = os.getenv("FLEX_API_BASE", "https://aiworkshopapi.flexinfra.com.my/v1")
 FLEX_MODEL    = os.getenv("FLEX_MODEL", "qwen2.5")
 
